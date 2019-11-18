@@ -1,0 +1,40 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+p {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px; }
+
+div {
+  border-left: 8px solid #dddddd;
+  padding: 4px;
+  padding-left: 16px;
+  margin-bottom: 16px;
+}
+
+.answer {
+  background-color: #fffde1;
+}
+
+.answer #coach-answer {
+  font-weight: bold;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #6a6a6a;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
